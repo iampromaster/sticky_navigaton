@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <nav>
+    <div class="nav-content">
+      <div class="logo">
+        <a href="">CodingXXX</a>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Skills</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+  <section class="home"></section>
+  <div class="text">
+    <p><h2>Stikicy Navigation Bar</h2></p>
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit, adipisci iste quibusdam eligendi saepe rerum fuga omnis vitae totam itaque doloribus quia consequuntur illo sequi labore sapiente dolor amet nobis veniam optio. Ipsum obcaecati dolore dolorem recusandae, quam voluptas ad. Molestias obcaecati maiores exercitationem quod dolorem! Molestiae laudantium vel a perspiciatis repellat nisi exercitationem, itaque libero, magnam sunt unde nemo? Distinctio ipsum nostrum aut? Accusantium suscipit tempora sed illum, consequuntur dolor beatae voluptatum sit quasi a ullam blanditiis fuga distinctio at. Saepe sit amet iure dolore. Tenetur aliquid modi quas iusto repudiandae reprehenderit ab perferendis nihil fugiat dolores quia est nobis minima, vitae libero inventore, rem voluptates repellat! Quae ipsa, architecto eaque pariatur, atque consectetur unde adipisci assumenda repudiandae excepturi soluta voluptatibus, accusantium nesciunt officiis similique maiores! Autem optio labore quis? Harum, veritatis. Quaerat voluptatem quibusdam veritatis sint eum! Nostrum, deleniti. Dignissimos repellendus qui quis quae architecto recusandae nisi at. Ad, quidem sint. Dignissimos provident quasi aperiam dicta! Nemo repellendus ratione perspiciatis aspernatur quae dolorem cumque quidem reprehenderit dolorum voluptates commodi aliquid vero ipsam minus deserunt, quam aperiam ipsum veritatis est! Ex ratione doloribus voluptas saepe accusantium. Hic unde optio doloribus reprehenderit minima labore iste molestiae porro eveniet natus eligendi quibusdam officia blanditiis cupiditate vitae impedit, nesciunt repellendus temporibus dolorum quia debitis eaque. Labore, veniam harum tempora mollitia facere ut cupiditate aliquam ab saepe sequi similique nesciunt repellendus architecto corporis adipisci commodi dolor. Nostrum voluptatibus dolorum cum sit in, recusandae mollitia ullam, est harum quisquam corporis qui ipsa! Consectetur animi inventore temporibus nostrum quibusdam dicta quaerat ab, placeat at sunt voluptatem perferendis maiores quisquam laborum veritatis, necessitatibus dolorem iste cupiditate earum vero. Repudiandae officia nihil commodi quod illum maxime, nobis similique accusamus recusandae nulla magni deleniti aperiam reprehenderit praesentium quo culpa. Nulla dignissimos eius voluptatibus tempore veniam, delectus voluptate quae.
+  </div>
+
+  <script>
+    let nav = document.querySelector("nav");
+    window.addEventListener("scroll",()=> {
+      if(document.documentElement.scrollTop > 20){
+        nav.classList.add("sticky");
+      }else{
+        nav.classList.remove("sticky");
+      }
+    })
+  </script>
+  
+</body>
+</html>
